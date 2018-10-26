@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1" width="200px">
+		<tr>
+			<td>用户id</td>
+			<td th:text="${id}"></td>
+		</tr>
+		<tr>
+			<td>用户名</td>
+			<td th:text="${name}"></td>
+		</tr>
+	<a href="http://localhost:8083/user/list">  <input name="tijiao" value="提交"/> </a>
+	</table>
+	
+</body>
+</html>
